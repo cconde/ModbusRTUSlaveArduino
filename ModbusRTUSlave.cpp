@@ -327,6 +327,7 @@ void ModbusRTUSlave::process()
 							}
 						}
 						break;
+					// we should place code here to answer a "function not supported" modbus error message
 				}
 			}
 			else bvalid = false;
